@@ -15,6 +15,8 @@ class UserEmpty extends Component {
     };
   }
 
+  blablabla() {}
+
   render() {
     switch (this.state.loaded) {
       case true:
