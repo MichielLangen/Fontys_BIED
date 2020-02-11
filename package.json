@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "mdbreact": "^4.25.1",
     "react": "^16.12.0",
+    "react-confirm-alert": "^2.4.1",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.1",
+    "react-sidenav": "^4.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
