@@ -191,7 +191,7 @@ export default function ClippedDrawer() {
                 return <main className={classes.content}>
                     <div className={classes.toolbar} />
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                        <h1 style={{ color: "#424242" }}>My awesome data scientist project</h1>
+                        <h1 style={{ color: "#424242" }}>Project inzicht in eenzaamheid</h1>
                         <Button
                             onClick={handleClickOpen}
                             type="submit"
@@ -298,7 +298,7 @@ export default function ClippedDrawer() {
                     <IconButton edge="start" color="inherit" aria-label="menu">
                         <ChevronLeft style={{ fontSize: 32 }} />
                     </IconButton>
-                    <Typography variant="h6">My awesome data scientist project</Typography>
+                    <Typography variant="h6">Project inzicht in eenzaamheid</Typography>
                 </Toolbar>
             </AppBar>
             <Drawer

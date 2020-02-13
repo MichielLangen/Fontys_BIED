@@ -32,7 +32,7 @@ class ProjectList extends Component {
       projects: [
         {
           id: 1,
-          name: "Project A"
+          name: "Project inzicht in eenzaamheid"
         },
         {
           id: 2,
