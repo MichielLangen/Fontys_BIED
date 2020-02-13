@@ -13,8 +13,8 @@ function App() {
     <BrowserRouter>
       <navComponent />
       <Switch>
-        <Route path="/" component={HomeView} exact />
-        <Route path="/login" component={LoginView} />
+        <Route path="/" component={LoginView} exact />
+        <Route path="/home" component={HomeView} />
         <Route path="/user" component={UserView} />
         <Route path="/project" component={ProjectView} />
         <Route path="/deletedUser" component={UserEmpty} />

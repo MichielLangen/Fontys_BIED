@@ -1,10 +1,15 @@
 import React, { Component } from "react";
-//import navComponent from "../components/navigation/navComponent";
+import ProjectList from "../components/project/projectListComponent";
+import Typography from "@material-ui/core/Typography";
 
 class HomeView extends Component {
   state = {};
   render() {
-    return <div>{this.props.history.push({ pathname: "/login" })}</div>;
+    return (
+      <div>
+        <ProjectList {...this.props} />
+      </div>
+    );
   }
 }
 
