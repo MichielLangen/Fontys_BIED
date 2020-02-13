@@ -12,7 +12,7 @@ class LoginView extends Component {
   }
 
   onClick() {
-    this.props.history.push({ pathname: "/user" });
+    this.props.history.push({ pathname: "/home" });
   }
 
   render() {
